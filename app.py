@@ -488,6 +488,7 @@ class Handler(object):
         note_content = f"""---
 date: {self.current_data_str}
 source: {self.note_source}
+tags: "read_status/read_later"
 ---
 
 {note_content}
